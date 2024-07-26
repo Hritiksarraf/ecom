@@ -5,7 +5,7 @@ export default function Home() {
       
     
         <img
-          src='/hero.jpg'
+          src='https://www.cloudways.com/blog/wp-content/uploads/Ecommerce-landing-page-examples.jpg'
           alt="error loading img"
           layout="responsive"
           className="h-[70vh] w-[100vw]"

@@ -17,9 +17,7 @@ export default function Navbar({
   totalAmount,
 }) {
   const [toggelProfile, setToggelProfile] = useState(false)
-  const dropDownProfile=()=>{
-    setToggelProfile(!toggelProfile)
-  }
+  
   const ref = useRef();
   const toggelViewCart = () => {
     if (ref.current.classList.contains("translate-x-full")) {
